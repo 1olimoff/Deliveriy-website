@@ -1,0 +1,43 @@
+.service {
+    margin-top: 150px;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 577px);
+    gap: 15px;
+}
+
+.service-card {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    background-color: #E6F7FF;
+    padding: 10px;
+    width: 380px;
+    height: 557px;
+    h3 {
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #0060AE;
+        margin: 0;
+        margin-top: 20px;
+        padding: 0 6px;
+
+    }
+
+    p {
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: black;
+        padding: 0 6px;
+    }
+}

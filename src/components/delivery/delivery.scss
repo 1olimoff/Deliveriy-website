@@ -1,0 +1,118 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.text-and-img {
+    display: flex;
+    margin-top: 10px;
+}
+
+.delivery-text {
+    h2 {
+        width: 583px;
+        height: 120px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 50px;
+        font-size: 50px;
+        color: #0060AE;
+
+        span {
+            color: #F5040B;
+        }
+    }
+
+    p {
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+        width: 440px;
+        height: 100px;
+    }
+}
+
+.delivery-btn {
+    display: flex;
+    gap: 17px;
+
+    .btn-one {
+        width: 276px;
+        height: 48px;
+        border-radius: 50px;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        background-color: #0060AE;
+        color: white;
+        font-family: "Montserrat";
+        cursor: pointer;
+    }
+
+    .btn-two {
+        width: 207px;
+        height: 48px;
+        border-radius: 50px;
+        border: 2px solid #0060AE;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        background-color: white;
+        color: #0060AE;
+        font-family: "Montserrat";
+        cursor: pointer;
+    }
+}
+
+.delivery-cards {
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.delivery-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    margin-top: 50px;
+    height: 184px;
+    border-radius: 30px;
+    background-color: #DCF4FFB2;
+    // align-items: center;
+    padding: 0 16px;
+
+    p {
+        width: 189px;
+        height: 52px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 16px;
+
+    }
+
+    h2 {
+        color: #0060AE;
+        width: 164px;
+        height: 60px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 50px;
+        margin: 0;
+
+    }
+}
+.delivery-image{
+    img{
+        border-radius: 200px;
+        padding: 20px;
+    }
+}

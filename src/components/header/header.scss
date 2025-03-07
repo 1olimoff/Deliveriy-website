@@ -1,0 +1,78 @@
+.countries-login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Montserrat";
+}
+.btn-regions{
+    width: 152px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+    font-family: "Montserrat";
+
+}
+.btn-login{
+    width: 70px;
+    height: 25px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 5px;
+    font-family: "Montserrat";
+    background-color: white;
+    cursor: pointer;
+}
+.btn-lang{
+    width: 46px;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 3px 8px;
+    font-family: "Montserrat";
+    background-color: white;
+
+}
+
+.header-box{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: E6F7FF;
+    border: 1px solid black;
+    padding: 17px 16px;
+    border-radius: 13px;
+    background-color: #DCF4FFB2;
+    button{
+        display: flex;
+        background-color: #DCF4FFB2;
+        gap: 7px;
+        border: none;
+        justify-content: center;
+        cursor: pointer;
+        align-items: center;
+    }
+}
+a{
+    text-decoration: none;
+    color: black;
+}
